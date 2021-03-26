@@ -1,0 +1,108 @@
+/* Iphone 5s */
+
+@media (max-width:812px) {
+  .box {
+    font-size: 1.5rem;
+  }
+  
+  /* CKF ABOUT */
+  .sectionCKF {
+    margin: 0 1rem;
+  }
+
+  .ckfwrapper {
+    flex-direction: column;
+  }
+
+  .ckfwrapper img {
+    width: 100%;
+  }
+
+  .ckfinfo {
+    order: -1;
+  }
+
+  /* OFFER */
+  .pricing-card:nth-of-type(1){
+    margin-bottom: 2.5rem;
+  }
+  
+  .Offercontainer{
+    /* padding: 2rem; */
+      padding: 2rem 1rem 0 1rem;
+      flex-direction: column;
+  }
+  
+  .Offercontainer p{
+    text-align: center;
+    padding-top: 2rem;
+  }
+  
+  /* Contact */
+
+  .sectionContact {
+    height: 100vh;
+  }
+
+  .contactHeader p {
+    padding: 2rem 0.2rem;
+    font-size: 1rem;
+  }
+
+  .contactHeader {
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .contactHeader h1 {
+    font-size: 1.5rem;
+  }
+
+  .contactHeader p {
+    padding: 0.3rem 0.5rem;
+    font-size: 1rem;
+  }
+
+  .container-contact {
+    width: 80vw;
+    margin: 0 auto;
+  }
+
+  #msg {
+    height: 20vh;
+  }
+
+  #perArt {
+    margin-top: 0.5rem;
+    color: #fff;
+    text-align: center;
+  }
+
+  #perArt p {
+    font-size: 1.1rem;
+  }
+  
+  #perArt a{
+    font-size: 1.1rem;
+  }
+
+  #msg::placeholder {
+    font-size: 1rem;
+  }
+
+  footer p {
+    font-size: 1rem;
+    padding: 1rem 0;
+  }
+
+}
+
+@media (orientation: landscape) {
+  .sectionContact {
+    height: 120vh;
+  }
+  .container-contact {
+    width: 40vw;
+  }
+}
