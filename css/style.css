@@ -78,9 +78,6 @@ body {
 
 /* PreLoader End*/
 
-
-
-
 .wrapper-slider {
   overflow-x: hidden;
   font-family: 'Roboto', sans-serif;
@@ -378,10 +375,8 @@ nav ul li:nth-last-of-type(3) {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   /* grid-auto-rows: 600px 300px; */
-  /* zmienia ns przemian wielkosc rzedu*/
   grid-gap: 10px;
   grid-auto-flow: dense;
-  /* sciesnia zdjecia */
   margin: 0 1rem;
   padding-top: 2rem;
 }
@@ -403,7 +398,6 @@ nav ul li:nth-last-of-type(3) {
   height: 100%;
   object-fit: cover;
   object-position: 50% 50%;
-  /* centruje zdjecie */
   cursor: pointer;
   transition: .5s ease-in-out;
 }
