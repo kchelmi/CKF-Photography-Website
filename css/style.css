@@ -639,12 +639,13 @@ nav ul li:nth-last-of-type(3) {
   font-size: 1.5rem;
 }
 
-#perArt a{
+#perArt a {
   font-size: 1.5rem;
   text-decoration: none;
   color: #fff;
 }
-#perArt a:visited{
+
+#perArt a:visited {
   color: #fff;
 }
 
@@ -750,4 +751,37 @@ footer p {
   list-style: none;
   padding: .5em;
   border-bottom: .02em solid #ecf0f1;
+}
+
+/* Animation fadeIn  */
+
+.gallery-container {
+  opacity: 0;
+}
+
+.animate-fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }

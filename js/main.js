@@ -1,7 +1,7 @@
 // PRELOADER
 const preload = document.querySelector('.preload');
 preload.classList.add('show-preloader');
-window.addEventListener('load',()=>{
+window.addEventListener('load', () => {
   preload.classList.remove('show-preloader');
 })
 
@@ -91,3 +91,24 @@ burger.addEventListener('click', () => {
   nav.classList.toggle('nav-active');
   burger.classList.toggle('toggleBurger');
 })
+
+
+// Animation fadeIn 
+
+const fadeIns = document.querySelectorAll('.fadeIn')
+
+window.addEventListener('scroll', checkfadeIn);
+
+checkfadeIn()
+
+function checkfadeIn() {
+  const triggerfadeIn = window.innerHeight / 5 * 4;
+
+  fadeIns.forEach(fadeIn => {
+    const fadeInTop = fadeIn.getBoundingClientRect().top
+
+    if (fadeInTop < triggerfadeIn) {
+      fadeIn.classList.add('animate-fadeIn')
+    }
+  })
+}
