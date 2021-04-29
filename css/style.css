@@ -728,11 +728,13 @@ footer p {
 }
 
 .princing-card_header--super {
-  background-color: #2980b9;
+  /* background-color: #2980b9; */
+  background-color: #c0c0c0;
 }
 
 .princing-card_header--basic {
-  background-color: #1abc9c;
+  /* background-color: #1abc9c; */
+  background-color: #654321;
 }
 
 .pricing-card_title {
